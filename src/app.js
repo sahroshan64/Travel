@@ -5,21 +5,21 @@ const hbs = require("hbs");
 const bcrypt =require("bcryptjs");
 
 // var password = require("passport");
-// var router = express.Router();
+// var router = express.Router(); 
 // var User =require("..models/user");
-// var Campground = require("../models/campgrund");
+// var Campground = require("../models/campgrund");  
 
 require("./db/conn");
-// require("./db/db");
+// require("./db/db"); 
 
 const Register = require("./models/registers");
 // const Contactu = require("./models/contactus");
-
+ 
 // const Contactu = require("./models/contactus");
 const {json} =require("express");
 const { Mongoose } = require("mongoose");
 
-
+ 
 const port = process.env.PORT || 3000;
 const static_path = path.join(__dirname, "../public");
 const templates_path = path.join(__dirname, "../templates/views");

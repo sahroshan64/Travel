@@ -1,7 +1,8 @@
 const mongoose = require("mongoose")
 
-mongoose.connect("mongodb+srv://register:JglEuJx0C69WQDP1@travl.xgnwl.mongodb.net/<dbname>?retryWrites=true&w=majority",{
-    useNewUrlParser:true,
+// mongoose.connect("mongodb+srv://register:JglEuJx0C69WQDP1@travl.xgnwl.mongodb.net/<dbname>?retryWrites=true&w=majority",{
+    mongoose.connect("mongodb://localhost/Travl",{      
+useNewUrlParser:true,
     useUnifiedTopology:true,
     useCreateIndex:true
 }).then(() => {
